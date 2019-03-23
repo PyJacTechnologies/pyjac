@@ -1,9 +1,3 @@
-/*--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -113,7 +107,7 @@ h3.clr{color:#fff;}
     text-transform: capitalize;
     font-weight: 600;
 }
-.w3layouts-team-grid h4 {
+.pyjac-team-grid h4 {
     font-size: 21px;
     color: #1860bd;
     text-transform: capitalize;
@@ -438,7 +432,7 @@ background-color: #212121;
 .social-icons ul li {
     padding-right: 20px;
 }
-.form-w3layouts-grid {
+.form-pyjac-grid {
     float: right;
     padding-top: 17px;
     padding-right: 31px;
@@ -457,7 +451,7 @@ background-color: #212121;
     border: 1px solid #00d0ff;
     letter-spacing: 2px;
 }
-.form-w3layouts-grid button{
+.form-pyjac-grid button{
     color: #fff;
     border: none;
     padding:9px 0px;
@@ -570,7 +564,7 @@ color: #00d0ff;
 .service-grid-set {
     padding: 3em 4em;
 }
-.w3layouts-make-goals {
+.pyjac-make-goals {
     background: url(../images/ab1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -600,7 +594,7 @@ color: #00d0ff;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;}
-  .matter-w3layouts-text h5 {
+  .matter-pyjac-text h5 {
     font-size: 36px;
     font-weight: 700;
     color: #fff;
@@ -622,7 +616,7 @@ color: #00d0ff;
   color: #fff;
 }
 
- .blog-date-grid ul li a, .w3layouts-team-grid h6 {
+ .blog-date-grid ul li a, .pyjac-team-grid h6 {
     font-size: 14px;
     color: #525252;
     font-weight: 400;
@@ -644,7 +638,7 @@ color: #00d0ff;
     left: -26%;
 }
 .blog-right-position { right: -26%;}
-.w3layouts-team-grid {
+.pyjac-team-grid {
     background: #fff;
     padding: 26px 26px;
 }
@@ -736,7 +730,7 @@ color: #00d0ff;
 }
 /*--//contact-- */
 /* footer */
-.footer-w3layouts-head h2 a {
+.footer-pyjac-head h2 a {
     font-size: 29px;
     font-weight: 600;
     color:#00d0ff;
@@ -749,7 +743,7 @@ color: #00d0ff;
 .bottom-footer {
     background: #30323e;
 }
-.footer-w3layouts-head h5 a {
+.footer-pyjac-head h5 a {
     font-size: 29px;
     font-weight: 600;
     color: #fff;
@@ -764,7 +758,7 @@ a.move-top span{
     font-size: 16px;
     color: #fff;
 }
-.form-w3layouts-grid button.btn:hover,.blog-left-wthree h4 a:hover,.sent-butnn:hover{opacity:0.8;}
+.form-pyjac-grid button.btn:hover,.blog-left-wthree h4 a:hover,.sent-butnn:hover{opacity:0.8;}
 .bottem-wthree-footer p {
     font-size: 14px;
     color: #fff;
@@ -838,7 +832,7 @@ nav {
 h3.title {
     font-size: 38px;
 	}
-.w3layouts-team-grid {
+.pyjac-team-grid {
     padding: 24px 24px;
 }
 .contact-forms textarea {
@@ -880,7 +874,7 @@ nav {
 .contact-forms input, .contact-forms textarea {
     padding: .7em .7em;
 	}
-.footer-w3layouts-head h2 a {
+.footer-pyjac-head h2 a {
     font-size: 28px;
 	}
 }
@@ -906,7 +900,7 @@ nav {
 .gallery-grids {
     padding: 21px 20px;
 }
-.w3layouts-team-grid {
+.pyjac-team-grid {
     padding: 21px 21px;
 }
 .address_mail_footer_grids iframe {
@@ -944,7 +938,7 @@ h3.title {
 .number-wthree-info h5 {
     font-size: 35px;
 }
-.w3layouts-team-grid h4 {
+.pyjac-team-grid h4 {
     font-size: 19px;
 }
 .contact-forms textarea {
@@ -965,7 +959,7 @@ h3.title {
 h3.title {
     font-size: 36px;
 }
-.w3layouts-make-goals {
+.pyjac-make-goals {
     min-height: 388px;
 }	
 .blog-right-position {
@@ -992,7 +986,7 @@ h3.title {
 nav {
     padding-left: 7px;
 }
-.form-w3layouts-grid {
+.form-pyjac-grid {
     padding-right: 18px;
 }	
 .blog-left-position {
@@ -1010,7 +1004,7 @@ nav {
 .contact-forms textarea {
     height: 12em;
 }
-.footer-w3layouts-head h2 a {
+.footer-pyjac-head h2 a {
     font-size: 27px;
 }
 }
@@ -1047,7 +1041,7 @@ nav ul li a {
 	nav {
     padding-left: 0px;
 }
-.form-w3layouts-grid {
+.form-pyjac-grid {
     padding-right: 9px;
 }
 nav ul li a {
@@ -1056,13 +1050,13 @@ nav ul li a {
 	#logo a {
     font-size: 37px;
 }
-.w3layouts-make-goals {
+.pyjac-make-goals {
     min-height: 311px;
 }
 .gallery-grids {
     padding: 17px 17px;
 }
-.w3layouts-team-grid {
+.pyjac-team-grid {
     padding: 18px 18px;
 }
 }
@@ -1070,7 +1064,7 @@ nav ul li a {
 nav {
     float: none;
 }
-.form-w3layouts-grid {
+.form-pyjac-grid {
     float: none;
     padding-top: 0px;
     padding-right: 0px;
@@ -1120,10 +1114,10 @@ h3.title {
 .number-wthree-info h5 {
     font-size: 31px;
 }
-.w3layouts-team-grid h4 {
+.pyjac-team-grid h4 {
     font-size: 18px;
 }
-.blog-date-grid ul li a, .w3layouts-team-grid h6 {
+.blog-date-grid ul li a, .pyjac-team-grid h6 {
     font-size: 13px;
 	}
 	.contact-forms textarea {
@@ -1140,7 +1134,7 @@ h3.title {
 .team-by-team {
     width: 53%;
 }
-.footer-w3layouts-head h2 a {
+.footer-pyjac-head h2 a {
     font-size: 25px;
 }
 .footer-top p span {
@@ -1169,7 +1163,7 @@ h3.title {
 .number-wthree-info h5 {
     font-size: 29px;
 }
-.w3layouts-make-goals {
+.pyjac-make-goals {
     min-height: 285px;
 }
 .contact-forms textarea {
@@ -1234,7 +1228,7 @@ nav {
 .service-grid-set {
     padding: 2em 1.5em;
 }
-.w3layouts-make-goals {
+.pyjac-make-goals {
     min-height: 253px;
 }
 .goals-making-wthree h4, .blog-left-wthree h4 a, .new-projects-us h6 a {
@@ -1243,7 +1237,7 @@ nav {
 .team-by-team {
     width: 62%;
 }
-.w3layouts-team-grid {
+.pyjac-team-grid {
     padding: 14px 14px;
 }
 .bottem-wthree-footer p {
