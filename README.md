@@ -1,2 +1,0 @@
-# pyjac
-website
