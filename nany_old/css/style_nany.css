@@ -494,7 +494,7 @@ background: url(../images/image2.jpg) no-repeat 0px 0px;
 .company-icon{
     background: url(../images/logo1.png) no-repeat 0px 0px;
     width: 70%;
-    height: 70px;
+    height: 100px;
     background-size: contain;
 }
 
