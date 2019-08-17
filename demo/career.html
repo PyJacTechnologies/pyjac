@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>He HealthCare UK | Career</title>
+	<!--meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords"
+		content="Nanny Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!--booststrap-->
+	<!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"
+media="all"> -->
+	<!--//booststrap end-->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!--stylesheets-->
+	<link href="css/style_nany.css" rel='stylesheet' type='text/css' media="all">
+
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//stylesheets-->
+	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Libre+Franklin:400,500" rel="stylesheet">
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+		$(function () {
+			$("#includedNav").load("sections/nav.html");
+
+			/*$("#includedCareer").load("sections/careerSection.html");
+
+			 	$("#includedTestimonials").load("sections/testimonialsSection.html");
+				$("#includedAboutUs").load("sections/aboutSection.html");
+				$("#includedServices").load("sections/servicesSection.html");
+				$("#includedClient").load("sections/clientSection.html");
+				$("#includedMidServices").load("sections/midServices.html");
+				$("#includedContact").load("sections/contactSection.html"); */
+			$("#includedFooter").load("sections/footerSection.html");
+		});
+
+		/*-----------------------------------*/
+
+		function start() {
+			var myform = $("form#myform");
+			myform.submit(function (event) {
+				event.preventDefault();
+
+				var params = myform.serializeArray().reduce(function (obj, item) {
+					obj[item.name] = item.value;
+					return obj;
+				}, {});
+
+				// Change to your service ID, or keep using the default service
+				var service_id = "default_service";
+
+				var template_id = "HeHeath_CandidateCV";
+				myform.find("button").text("Sending...");
+				emailjs.send(service_id, template_id, params)
+					.then(function () {
+						alert("Sent!");
+						myform.find("button").text("Send");
+					}, function (err) {
+						alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+						myform.find("button").text("Send");
+					});
+
+				return false;
+			});
+
+		}
+	</script>
+	<style>
+		form.emailjs-sending:after {
+			content: 'Sending email...';
+			background: #eee;
+		}
+
+		form.emailjs-success:after {
+			content: 'Email sent!';
+			background: #1B5E20;
+			color: white;
+			text-shadow: -1px -1px black;
+		}
+
+		form.emailjs-error:after {
+			content: 'Error sending email';
+			background: #B71C1C;
+			color: white;
+			text-shadow: -1px -1px black;
+		}
+	</style>
+</head>
+
+<body onload="start()">
+
+	<!-- ----------------MenuBar ----------------------->
+	<!-- header -->
+	<div class="container">
+
+		<div id="logo">
+			<a href="index.html">
+				<div class="company-icon">
+					<img src="images/logo1.png" width="225px" height="75px">
+				</div>
+			</a>
+		</div>
+		<!-- nav -->
+		<div id="includedNav"></div>
+		<!-- //nav -->
+	</div>
+	<!-- //header -->
+	<!---------------Menu Bar Ends -------------------->
+
+	<div>
+		<div class="candidate_cv">
+			<div class="tittle_head_w3ls">
+				<h3 class="tittle two">Candidate Cv</h3>
+			</div>
+			<div class="inner_sec_grids_info login-form">
+				<form id="myform">
+					<div class="col-md-6 pull-left">
+						<div class="form-inputs email">
+							<p>Full name</p>
+							<i class="fa fa-user" aria-hidden="true"></i> <input type="text" name="fullName"
+								placeholder="" required="" />
+						</div>
+						<div class="form-inputs name">
+							<p>Email</p>
+							<i class="fa fa-envelope" aria-hidden="true"></i> <input type="email" name="email"
+								placeholder="" required="" />
+						</div>
+						<div class="form-inputs name">
+							<p>Phone</p>
+							<i class="fa fa-phone" aria-hidden="true"></i> <input type="text" name="phone"
+								placeholder="" required="" />
+						</div>
+						<div class="form-inputs name">
+							<p>Address</p>
+							<i class="fa fa-phone" aria-hidden="true"></i> <input type="text" name="address"
+								placeholder="" required="" />
+						</div>
+
+					</div>
+
+
+					<div class="col-md-6 pull-right">
+						<div class="form-inputs name">
+							<p>Comment</p>
+							<i class="fa fa-comment" aria-hidden="true"></i>
+							<textarea name="comment" placeholder="" required=""></textarea>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="form-inputs">
+						<p>Specify your current employment status</p>
+						<ul>
+							<li><input type="radio" id="a-option" name="job_status" value="Employed">
+								<label for="a-option">Employed </label>
+								<div class="check"></div>
+							</li>
+							<li><input type="radio" id="b-option" name="job_status" value="Unemployed">
+								<label for="b-option">Unemployed</label>
+								<div class="check"></div>
+							</li>
+							<li><input type="radio" id="c-option" name="job_status" value="Self-Employed">
+								<label for="c-option">Self-Employed</label>
+								<div class="check"></div>
+							</li>
+							<li><input type="radio" id="d-option" name="job_status" value="Student">
+								<label for="d-option">Student</label>
+								<div class="check"></div>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<!-- <div class="form-inputs upload">
+					<p>Upload your resume</p>
+					<input type="file" id="fileselect" name="fileselect[]"
+						multiple="multiple" />
+					<div id="filedrag">Upload</div>
+				</div>-->
+
+					<br><br>
+					<input type="submit" value="Send">
+				</form>
+			<!-- 	<script type="text/javascript"
+					src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+				<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+				<script type="text/javascript">
+					(function () {
+						emailjs.init("user_vPhM9lNYoUWCAC3C6hoEH");
+					})();
+				</script>
+			</div>
+		</div>
+	</div>
+
+	<!------------------------------------------------>
+	<!------------------------------------------------->
+
+	<div class="jumbotron">
+
+		<div class="container">
+			<h4 class="text-center"><i class="fa fa-quote-left" aria-hidden="true"></i> I am very happy working with
+				HeHealthCare Homecare
+				and enjoy
+				feeling part of the Cavendish Homecare
+				family.<i class="fa fa-quote-right" aria-hidden="true"></i>
+			</h4>
+		</div>
+
+	</div>
+
+	<div class="container">
+		<div class="container">
+			<div class="container">
+				<h2 class="text-center">Roles at HeHEalthCare</h2>
+				<h5>Career</h5><br>
+				<p>You will need to have previous home care experience. A carer will be need to provide companionship
+					for
+					their patient, helping out with personal care and house keeping duties. This may include bathing,
+					food
+					preparation, and washing clothes. Along with these tasks, a carer may be required to monitor
+					patients
+					medication use.</p>
+				<br>
+
+				<h5>Registered Nurse</h5><br>
+				<p>
+					For this role we expect up-to-date clinical skills, as well as home care or community care
+					experience.<br>
+					A registered nurse will provide exceptional care in the homes of their patients. This will include
+					assisting with basic everyday needs and tasks. They will also be required to carry out specialised
+					care,
+					such as supervision of medication and monitoring of patients’ conditions – maintaining records,
+					which
+					can be communicated to health care providers. All our registered nurses should be friendly and
+					responsive to their patients care preferences.</p>
+				<br>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="includedFooter"></div>
+
+
+
+
+
+</body>
+
+</html>
